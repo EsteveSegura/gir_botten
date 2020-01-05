@@ -1,0 +1,11 @@
+{
+     "chatCommands" : [
+          {"trigger" : "!discord", "value" : "En discord suelo avisar de todos los directos https://discord.gg/neKXcyQ"},
+          {"trigger" : "!twitter", "value" : "En twitter suelo avisar de todos los directos https://twitter.com/girlazote"},
+          {"trigger" : "!proyecto", "value" : "Ahora mismo estoy trabajando en un bot que simula un 'battleRoyale' en twitter con trazas de RPG"}
+     ],
+     "periodicCommands" : [
+          {"tirggerAtMinute" : 0, "value" : "Puedes usar los comandos !discord y !twitter para obtener información de las redes sociales"},
+          {"tirggerAtMinute" : 30, "value" : "Puedes usar los comandos !discord y !twitter para obtener información de las redes sociales"}
+     ]
+}
