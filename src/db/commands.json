@@ -7,7 +7,9 @@
           {"trigger" : "!proyectoantiguo", "value" : "Ahora mismo estoy trabajando en un bot que simula un 'battleRoyale' en twitter con trazas de RPG. Si no te imaginas como, puedes ver otra cuenta que he creado con este sistema https://twitter.com/OwSpainWar"},
           {"trigger" : "!encuesta", "value" : "Estoy preparando un experimento sobre el crecimiento en instagram... Ayudame escogiendo la categoria en la que debo crearme la cuenta https://strawpoll.com/b8r5y7by"},
           {"trigger" : "!fc", "value" : "Si eres usuario de FC, quizas puedes apoyarme con un pequeño up en este post https://bitly.com/2sWcOQG"},
-          {"trigger" : "!youtube", "value" : "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"}
+          {"trigger" : "!youtube", "value" : "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"},
+          {"trigger" : "!github", "value" : "Aquí tengo la integridad de los proyectos que hago en stream y muchos otros https://github.com/EsteveSegura"}
+
 
      ],
      "periodicCommands" : [
