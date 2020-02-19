@@ -7,7 +7,8 @@
           {"trigger" : "!yt", "value" : "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"},
           {"trigger" : "!github", "value" : "Aquí tengo la integridad de los proyectos que hago en stream y muchos otros https://github.com/EsteveSegura"},
           {"trigger" : "!hackchat", "value" : "Vamonos al hack chat! https://hack.chat/?g1rl4z0 "},
-          {"trigger" : "!comandos", "value" : "!discord,!twitter,!youtube,!github,!hackbot"}
+          {"trigger" : "!comandos", "value" : "!discord,!twitter,!youtube,!github,!hackbot"},
+          {"trigger" : "!ping", "value" : "Pong"}
 
 
      ],
