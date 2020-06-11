@@ -1,20 +1,94 @@
 {
-     "chatCommands" : [
-          {"trigger" : "!discord", "value" : "En discord suelo avisar de todos los directos https://discord.gg/neKXcyQ"},
-          {"trigger" : "!twitter", "value" : "En twitter suelo avisar de todos los directos https://twitter.com/girlazote"},
-          {"trigger" : "!nicho", "value" : "Una cuenta nicho es aquella cuenta que no es personal, ni empresa, es una cuenta que se dedica a repostear contenido sobre un tema muy concreto... Por ejemplo, fotos de huskies."},
-          {"trigger" : "!youtube", "value" : "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"},
-          {"trigger" : "!yt", "value" : "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"},
-          {"trigger" : "!github", "value" : "Aquí tengo la integridad de los proyectos que hago en stream y muchos otros https://github.com/EsteveSegura"},
-          {"trigger" : "!hackchat", "value" : "Vamonos al hack chat! https://hack.chat/?g1rl4z0 "},
-          {"trigger" : "!comandos", "value" : "!discord,!twitter,!youtube,!github,!hackbot"},
-          {"trigger" : "!ping", "value" : "Pong"}
-
-
-     ],
-     "periodicCommands" : [
-          {"tirggerAtMinute" : 0, "value" : "Puedes usar los comandos !discord y !twitter para obtener información de las redes sociales"},
-          {"tirggerAtMinute" : 30, "value" : "Puedes usar los comandos !discord y !twitter para obtener información de las redes sociales"},
-          {"tirggerAtMinute" : 45, "value" : "Abajo en la sección de paneles tienes información sobre los horarios, la actualizo cada semana, tambien puedes encontrar otra información útil"}
+     "channels": [
+          {
+               "channel": "girlazo",
+               "chatCommands": [
+                    {
+                         "trigger": "!discord",
+                         "value": "En discord suelo avisar de todos los directos https://discord.gg/neKXcyQ"
+                    },
+                    {
+                         "trigger": "!twitter",
+                         "value": "En twitter suelo avisar de todos los directos https://twitter.com/girlazote"
+                    },
+                    {
+                         "trigger": "!nicho",
+                         "value": "Una cuenta nicho es aquella cuenta que no es personal, ni empresa, es una cuenta que se dedica a repostear contenido sobre un tema muy concreto... Por ejemplo, fotos de huskies."
+                    },
+                    {
+                         "trigger": "!youtube",
+                         "value": "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"
+                    },
+                    {
+                         "trigger": "!yt",
+                         "value": "Esta un poco vacia, pero esta es la cuenta: https://www.youtube.com/channel/UCNm3WAvWE-uf6jHksUlRV6w"
+                    },
+                    {
+                         "trigger": "!github",
+                         "value": "Aquí tengo la integridad de los proyectos que hago en stream y muchos otros https://github.com/EsteveSegura"
+                    },
+                    {
+                         "trigger": "!hackchat",
+                         "value": "Vamonos al hack chat! https://hack.chat/?g1rl4z0 "
+                    },
+                    {
+                         "trigger": "!comandos",
+                         "value": "!discord,!twitter,!youtube,!github,!hackbot"
+                    },
+                    {
+                         "trigger": "!ping",
+                         "value": "Pong"
+                    }
+               ],
+               "periodicCommands": [
+                    {
+                         "tirggerAtMinute": 0,
+                         "value": "Puedes usar los comandos !discord y !twitter para obtener información de las redes sociales"
+                    },
+                    {
+                         "tirggerAtMinute": 30,
+                         "value": "Puedes usar los comandos !discord y !twitter para obtener información de las redes sociales"
+                    },
+                    {
+                         "tirggerAtMinute": 45,
+                         "value": "Abajo en la sección de paneles tienes información sobre los horarios, la actualizo cada semana, tambien puedes encontrar otra información útil"
+                    }
+               ]
+          },
+          {
+               "channel": "serpientemimosa",
+               "chatCommands": [
+                    {
+                         "trigger": "!instagram",
+                         "value": "https://instagram.com/serpientemimosa https://instagram.com/irenepllach"
+                    },
+                    {
+                         "trigger": "!twitter",
+                         "value": "https://twitter.com/serpientemimosa"
+                    },
+                    {
+                         "trigger": "!discord",
+                         "value": "https://discord.gg/mvHeTUX"
+                    }
+               ],
+               "periodicCommands": [
+                    {
+                         "tirggerAtMinute": 0,
+                         "value": "Recuerda que puedes seguirme en mis redes usando los comandos !twitter, !instagram, !discord "
+                    },
+                    {
+                         "tirggerAtMinute": 15,
+                         "value": "Se amable con todos <3"
+                    },
+                    {
+                         "tirggerAtMinute": 30,
+                         "value": "instagram : https://instagram.com/serpientemimosa https://instagram.com/irenepllach twitter: https://twitter.com/serpientemimosa discord : https://discord.gg/mvHeTUX"
+                    },
+                    {
+                         "tirggerAtMinute": 45,
+                         "value": "Recuerda que puedes seguirme en mis redes usando los comandos !twitter, !instagram, !discord "
+                    }
+               ]
+          }
      ]
 }
