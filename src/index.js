@@ -12,7 +12,7 @@ const client = new tmi.Client({
           username: 'fasterchatter',
           password: process.env.TOKEN
      },
-     channels: ['girlazo','serpientemimosa']
+     channels: ['girlazo','serpientemimosa'] //'girlazo','serpientemimosa'
 });
 
 
@@ -20,6 +20,7 @@ client.connect();
 
 client.on('message', (channel, tags, message, self) => {
      if (self) return;
+
 
      for (let i = 0; i < commands.channels.length; i++) {
           if (channel == `#${commands.channels[i].channel}`) {
@@ -31,10 +32,6 @@ client.on('message', (channel, tags, message, self) => {
           }
      }
 });
-
-setTimeout(() => {
-     console.log(client.channels)
-}, 3000);
 
 setInterval(() => {
      let now = new Date()
@@ -48,11 +45,6 @@ setInterval(() => {
           }
      }
 
-     /*for (let i = 0; i < commands.periodicCommands.length; i++) {
-          if (minute == commands.periodicCommands[i].tirggerAtMinute) {
-               client.say(client.channels[0], commands.periodicCommands[i].value)
-          }
-     }*/
 }, 60000);
 
 

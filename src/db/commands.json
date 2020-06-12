@@ -4,6 +4,10 @@
                "channel": "girlazo",
                "chatCommands": [
                     {
+                         "trigger": "!info",
+                         "value": "Estoy preparando unas clases de vivo para la introducción a la programación. Este sera el temario: http://girlazo.com/short/s/tPxuIMNE y si quieres ser de los primeros puedes pseudoinscribirte en https://forms.gle/VdgtBkroZDGxzNcm9"
+                    },
+                    {
                          "trigger": "!discord",
                          "value": "En discord suelo avisar de todos los directos https://discord.gg/neKXcyQ"
                     },
